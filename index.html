@@ -1,15 +1,568 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Page</title>
+    <title>Jebagnanam -  Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
-    <h1>k</h1>
-    <h1>Jeba</h1>
-    <img width="400" src="J1.jpeg" alt="">
-    <p>Im professnol web devloper</p>
-    <p> wellcome dear</p>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">JEBA</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>K JEBAGNANAM</h1>
+            <p class="subtitle"> Full Stack Developer</p>
+            <a href="#contact" class="cta-button">Let's Work Together</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-content fade-in">
+            <div class="profile-image">JEBA</div>
+            <div class="about-text">
+                <h3>Professional Summary</h3>
+                <p>Full stock web Laravel Developer with 2 years of hands-on experience in developing web applications and CRM systems. Skilled in creating secure RESTful APIs, integrating payment gateways, and deploying applications. Experienced in managing servers and databases to ensure smooth and efficient operations.</p>
+                <p>I specialize in building scalable web solutions using modern PHP frameworks, with a strong focus on clean code, security, and performance optimization.</p>
+            </div>
+        </div>
+
+        <div class="skills-grid fade-in">
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>Frontend</h4>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag"><i class="fab fa-js-square"></i> JavaScript</span>
+                    <span class="skill-tag"><i class="fas fa-dollar-sign"></i> jQuery</span>
+                    <span class="skill-tag"><i class="fas fa-sync-alt"></i> AJAX</span>
+                    <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+                    <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                    <span class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                    <span class="skill-tag"><i class="fas fa-bolt"></i> Livewire</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h4>Backend</h4>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
+                    <span class="skill-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                    <span class="skill-tag"><i class="fas fa-fire"></i> CodeIgniter</span>
+                    <span class="skill-tag"><i class="fas fa-sitemap"></i> MVC</span>
+                    <span class="skill-tag"><i class="fas fa-plug"></i> RESTful APIs</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h4>Databases</h4>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+                    <span class="skill-tag"><i class="fas fa-leaf"></i> MongoDB</span>
+                    <span class="skill-tag"><i class="fas fa-feather-alt"></i> SQLite</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-header">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h4>Tools & Deployment</h4>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                    <span class="skill-tag"><i class="fas fa-rocket"></i> Postman</span>
+                    <span class="skill-tag"><i class="fab fa-docker"></i> Docker</span>
+                    <span class="skill-tag"><i class="fas fa-cogs"></i> cPanel</span>
+                    <span class="skill-tag"><i class="fas fa-vial"></i> PHPUnit</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <h2 class="section-title fade-in">Featured Projects</h2>
+        <div class="projects-container">
+            <div class="projects-grid fade-in">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>
+                            <div class="project-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            Custom CRM System
+                        </h3>
+                        <div class="project-status">Active</div>
+                    </div>
+                    <p>Developed and maintained custom CRM systems with user management platforms and admin dashboards using Laravel and MySQL, featuring role-based access control tailored for sales and service workflows.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                        <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="tech-tag"><i class="fas fa-shield-alt"></i> RBAC</span>
+                        <span class="tech-tag"><i class="fas fa-key"></i> Laravel Sanctum</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-eye"></i> View Details</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>
+                            <div class="project-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            Cottage Booking System
+                        </h3>
+                        <div class="project-status">Live</div>
+                    </div>
+                    <p>Enhanced and maintained a CodeIgniter-based booking system for cottage reservations, implementing feature improvements, bug fixes, and seamless payment gateway integrations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag"><i class="fas fa-fire"></i> CodeIgniter</span>
+                        <span class="tech-tag"><i class="fas fa-credit-card"></i> Payment Gateway</span>
+                        <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="tech-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-eye"></i> View Details</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>
+                            <div class="project-icon">
+                                <i class="fas fa-plug"></i>
+                            </div>
+                            RESTful API Development
+                        </h3>
+                        <div class="project-status">Complete</div>
+                    </div>
+                    <p>Designed scalable RESTful APIs with modular backend logic using Laravel MVC architecture and Eloquent ORM, implementing secure authentication and authorization systems.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag"><i class="fab fa-laravel"></i> Laravel</span>
+                        <span class="tech-tag"><i class="fas fa-plug"></i> REST API</span>
+                        <span class="tech-tag"><i class="fas fa-database"></i> Eloquent ORM</span>
+                        <span class="tech-tag"><i class="fas fa-rocket"></i> Postman</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-eye"></i> View Details</a>
+                        <a href="#" class="project-link"><i class="fas fa-book"></i> Documentation</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>
+                            <div class="project-icon">
+                                <i class="fab fa-wordpress"></i>
+                            </div>
+                            WordPress & OpenCart Solutions
+                        </h3>
+                        <div class="project-status">Deployed</div>
+                    </div>
+                    <p>Customized and deployed WordPress and OpenCart projects on shared hosting environments, providing ongoing support and feature enhancements for e-commerce platforms.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag"><i class="fab fa-wordpress"></i> WordPress</span>
+                        <span class="tech-tag"><i class="fas fa-shopping-cart"></i> OpenCart</span>
+                        <span class="tech-tag"><i class="fas fa-cogs"></i> cPanel</span>
+                        <span class="tech-tag"><i class="fab fa-php"></i> PHP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-eye"></i> View Details</a>
+                        <a href="#" class="project-link"><i class="fas fa-store"></i> E-commerce</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <h2 class="section-title fade-in">Professional Experience</h2>
+        <div class="experience-timeline fade-in">
+            <div class="experience-item">
+                <h3><i class="fas fa-laptop-code"></i> Software Developer</h3>
+                <div class="company">Mindmade Technologies</div>
+                <div class="duration"><i class="far fa-calendar-alt"></i> Nov 2023 - Present</div>
+                <ul>
+                    <li>Contributed to development and enhancement of multiple web-based systems using PHP frameworks</li>
+                    <li>Developed custom CRM systems with role assignments for sales and service workflows</li>
+                    <li>Designed scalable RESTful APIs using Laravel MVC architecture and Eloquent ORM</li>
+                    <li>Implemented secure authentication using Laravel Sanctum and RBAC</li>
+                    <li>Integrated SQL databases with optimized schema designs and query performance tuning</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3><i class="fas fa-code"></i> Web Developer Intern</h3>
+                <div class="company">Sai Techno Solutions</div>
+                <div class="duration"><i class="far fa-calendar-alt"></i> May 2023 - Aug 2023</div>
+                <ul>
+                    <li>Launched web development career building responsive and user-focused websites</li>
+                    <li>Developed landing pages with modern design principles</li>
+                    <li>Gained hands-on experience in front-end technologies and backend logic</li>
+                    <li>Worked on responsive design implementation across multiple devices</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2 class="section-title fade-in">Get In Touch</h2>
+        <div class="contact-content fade-in">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>I'm always interested in discussing new opportunities, innovative projects, and ways to bring your ideas to life through code.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <span>+91 80566 72452</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span>jebagnanam2000@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <span>Coimbatore, India</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/manojs-developer" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Manojs-developer" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!-- <a href="#" class="social-link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a> -->
+                    <!-- <a href="#" class="social-link" target="_blank">
+                        <i class="fas fa-globe"></i>
+                    </a> -->
+                </div>
+            </div>
+            <form action="post" class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 </p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    navLinks.classList.remove('active');
+                }
+            });
+        });
+
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Enhanced project card interactions
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-15px) scale(1.02)';
+                
+                // Add floating animation to the icon
+                const icon = this.querySelector('.project-icon');
+                if (icon) {
+                    icon.style.animation = 'float 2s ease-in-out infinite';
+                }
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+                
+                // Remove floating animation
+                const icon = this.querySelector('.project-icon');
+                if (icon) {
+                    icon.style.animation = '';
+                }
+            });
+        });
+
+        // Enhanced skill tag interactions
+        document.querySelectorAll('.skill-tag').forEach(tag => {
+            tag.addEventListener('mouseenter', function() {
+                this.style.transform = 'scale(1.1) rotate(2deg)';
+                this.style.backgroundColor = 'rgba(255, 215, 0, 0.2)';
+            });
+            
+            tag.addEventListener('mouseleave', function() {
+                this.style.transform = 'scale(1) rotate(0deg)';
+                this.style.backgroundColor = 'rgba(255, 215, 0, 0.1)';
+            });
+        });
+
+        // Contact form handling with enhanced feedback
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const message = formData.get('message');
+            
+            // Simple validation
+            if (!name || !email || !message) {
+                showNotification('Please fill in all fields', 'error');
+                return;
+            }
+            
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                showNotification('Please enter a valid email address', 'error');
+                return;
+            }
+            
+            // Simulate form submission
+            const submitBtn = this.querySelector('.submit-btn');
+            const originalHTML = submitBtn.innerHTML;
+            
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            submitBtn.disabled = true;
+            
+            // Simulate API call
+            setTimeout(() => {
+                showNotification('Thank you for your message! I\'ll get back to you soon.', 'success');
+                this.reset();
+                submitBtn.innerHTML = originalHTML;
+                submitBtn.disabled = false;
+            }, 2000);
+        });
+
+        // Notification system
+        function showNotification(message, type) {
+            const notification = document.createElement('div');
+            notification.className = `notification ${type}`;
+            notification.innerHTML = `
+                <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-triangle'}"></i>
+                <span>${message}</span>
+            `;
+            
+            // Add styles
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: ${type === 'success' ? '#00ff96' : '#ff4757'};
+                color: #0a0a0a;
+                padding: 1rem 1.5rem;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                font-weight: 600;
+                z-index: 10000;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+                transform: translateX(400px);
+                transition: transform 0.3s ease;
+            `;
+            
+            document.body.appendChild(notification);
+            
+            // Animate in
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+            }, 100);
+            
+            // Remove after 5 seconds
+            setTimeout(() => {
+                notification.style.transform = 'translateX(400px)';
+                setTimeout(() => {
+                    document.body.removeChild(notification);
+                }, 300);
+            }, 5000);
+        }
+
+        // Add parallax effect to hero section
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            if (hero && scrolled < window.innerHeight) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+
+        // Add loading animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '0';
+            document.body.style.transition = 'opacity 0.5s ease';
+            
+            setTimeout(() => {
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+
+        // Add interactive cursor effect (optional)
+        document.addEventListener('mousemove', (e) => {
+            const cursor = document.querySelector('.custom-cursor');
+            if (!cursor) {
+                const newCursor = document.createElement('div');
+                newCursor.className = 'custom-cursor';
+                newCursor.style.cssText = `
+                    position: fixed;
+                    width: 20px;
+                    height: 20px;
+                    background: rgba(255, 215, 0, 0.3);
+                    border-radius: 50%;
+                    pointer-events: none;
+                    z-index: 9999;
+                    transition: transform 0.1s ease;
+                `;
+                document.body.appendChild(newCursor);
+            }
+            
+            const cursorElement = document.querySelector('.custom-cursor');
+            cursorElement.style.left = e.clientX - 10 + 'px';
+            cursorElement.style.top = e.clientY - 10 + 'px';
+        });
+
+        // Add click ripple effect
+        document.addEventListener('click', (e) => {
+            const ripple = document.createElement('div');
+            ripple.style.cssText = `
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                background: radial-gradient(circle, rgba(255, 215, 0, 0.3) 0%, transparent 70%);
+                border-radius: 50%;
+                pointer-events: none;
+                z-index: 9998;
+                animation: ripple-expand 0.6s ease-out;
+                left: ${e.clientX - 50}px;
+                top: ${e.clientY - 50}px;
+            `;
+            
+            document.body.appendChild(ripple);
+            
+            setTimeout(() => {
+                document.body.removeChild(ripple);
+            }, 600);
+        });
+
+        // Add ripple animation keyframes
+        const rippleStyle = document.createElement('style');
+        rippleStyle.textContent = `
+            @keyframes ripple-expand {
+                from {
+                    transform: scale(0);
+                    opacity: 1;
+                }
+                to {
+                    transform: scale(1);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(rippleStyle);
+    </script>
 </body>
 </html>
+
+
